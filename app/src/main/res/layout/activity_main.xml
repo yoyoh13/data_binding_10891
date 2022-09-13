@@ -5,7 +5,7 @@
     <data>
         <variable
             name="viewmodel"
-            type="com.yohanes.data_binding_10891.viewmodel.MainViewModel"/>
+            type="com.yohanes.data_binding_10891.MainViewModel"/>
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -84,13 +84,13 @@
             android:layout_marginEnd="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
-            android:onClick="@{viewmodel.DisplayEditTextContent}"
+            android:text="@{viewmodel.displayedEditTextContent}"
             app:layout_constraintBottom_toTopOf="@+id/button3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button2"
             app:layout_constraintVertical_bias="0.501"
-            android:text="Content od Edit Text"/>
+            tools:text="Content od Edit Text"/>
         <Button
             android:id="@+id/button3"
             android:layout_width="wrap_content"
