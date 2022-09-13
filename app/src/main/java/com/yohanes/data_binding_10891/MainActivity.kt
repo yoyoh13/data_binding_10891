@@ -23,5 +23,6 @@ class MainActivity : AppCompatActivity() {
         mainViewModel.editTextContent.observe(this) {
             Toast.makeText(this, it, Toast.LENGTH_SHORT).show()
         }
+
     }
 }
